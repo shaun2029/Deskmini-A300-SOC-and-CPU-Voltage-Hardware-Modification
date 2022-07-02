@@ -32,16 +32,17 @@ CPU VCore Voltage Offset
   22K resistor in parallel with a 150K resistor, offset ~90mV  - unstable
 
 
-Notes:
-  Although I have been as diligent as possible, I accept no responsibility for the information in the document, or the damage that it could lead to.
+**Notes:**
 
-  This is very risky, you can destroy your Deskmini A300 CPU RAM drives etc.
+  1. Although I have been as diligent as possible, I accept no responsibility for the information in the document, or the damage that it could lead to.
 
-  The components are very very small, only do this if you are very experienced soldering tiny components and have the correct equipment (soldering iorn with a very small diameter tip), and a lot of time.
+  2. This is very risky, you can destroy your Deskmini A300 CPU RAM drives etc.
 
-  Do not heat the entire resistor, it will detach from the board and it will be game over. Only touch one end of the component with the soldering iron, and only for a fraction of a second. I used leaded solder and an iron tip temperature of 380 degrees celsius.
+  3. The components are very very small, only do this if you are very experienced soldering tiny components and have the correct equipment (soldering iorn with a very small diameter tip), and a lot of time.
+
+  4. Do not heat the entire resistor, it will detach from the board and it will be game over. Only touch one end of the component with the soldering iron, and only for a fraction of a second. I used leaded solder and an iron tip temperature of 380 degrees celsius.
   
-  Disconnect the power and all peripherals during the procedure.
+  5. Disconnect the power and all peripherals during the procedure.
   
-  Use wire with a very small diameter.
+  6. Use wire with a very small diameter.
   
