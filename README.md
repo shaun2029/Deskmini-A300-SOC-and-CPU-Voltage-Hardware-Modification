@@ -1,11 +1,11 @@
 # Deskmini-A300-SOC-and-CPU-Voltage-Hardware-Modification
-Deskmini A300 SOC Voltage modded to 1100mV - VCORE Max 1388mV
+Deskmini A300 SOC Voltage modded to 1100mV - VCORE Max 1388mV (Core Performance Boost enabled)
 
   I was unable to get my Ryzen 4600G stable with PBO turned on. I tried to increase the SOC voltage using different BIOS versions but nothing worked.
 
   After modifying the SOC voltage to around 1.100V, there were still stability issues. I managed to solve this with a +112mV VCORE offset, by adding another resistor modification.
 
-  My Deskmini A300 is using BIOS P3.60S with a Ryzen 4600G an PBO is set to enabled.
+  My Deskmini A300 is using BIOS P3.60S with a Ryzen 4600G and Core Performance Boost is set to enabled.
 
 
 The Deskmini a300 uses a DS3667BB-02 Dual-Output PWM Controller.
@@ -24,7 +24,7 @@ SOC Voltage
 
 
 CPU VCore Voltage Offset
-  Linking 5V via 17.5K resistor to RT3667BB pin 23 (OFS) ~160mV Offset to CPU VCORE. For 4600G, VCORE max increased to 1388mV (PBO ON)
+  Linking 5V via 17.5K resistor to RT3667BB pin 23 (OFS) ~160mV Offset to CPU VCORE. For 4600G, VCORE max increased to 1388mV (Core Performance Boost enabled)
   NOTE: In pictures these resistors are linked with the pink (red) wires.
 
   17.5K resistor (22Kin parallel with a 150K and a 220K resistor), offset ~160mV
