@@ -24,7 +24,7 @@ SOC Voltage
 
 
 CPU VCore Voltage Offset
-  Linking 5V via 17.5K resistor to RT3667BB pin 23 (OFS) ~160mV Offset to CPU VCORE. For 4650G, VCORE max increased to 1388mV (PBO ON)
+  Linking 5V via 17.5K resistor to RT3667BB pin 23 (OFS) ~160mV Offset to CPU VCORE. For 4600G, VCORE max increased to 1388mV (PBO ON)
   NOTE: In pictures these resistors are linked with the pink (red) wires.
 
   17.5K resistor (22Kin parallel with a 150K and a 220K resistor), offset ~160mV
