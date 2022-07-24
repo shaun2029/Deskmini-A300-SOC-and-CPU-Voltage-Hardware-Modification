@@ -1,4 +1,4 @@
-# Deskmini-A300-SOC-and-CPU-Voltage-Hardware-Modification
+# Deskmini A300 SOC and CPU Voltage Hardware Modification
 Deskmini A300 SOC Voltage modded to 1100mV - VCORE Max 1388mV (Core Performance Boost enabled)
 
   I was unable to get my Ryzen 4600G stable with PBO turned on. I tried to increase the SOC voltage using different BIOS versions but nothing worked.
